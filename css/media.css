@@ -1,0 +1,59 @@
+@media all and (max-width: 600px) {
+    .mainpage h3 {
+        width: 80%;
+        font-size: 30px;
+    }
+    .card {
+        flex-direction: row;
+    }
+    #card {
+        width: 165px;
+        margin-bottom: 16px;
+    }
+    .card img {
+        height: 180px;
+    }
+    .card h3 {
+        margin: 8px 10px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card p {
+        margin: 0px 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card #viewall-btn {
+        margin: 12px 10px;
+        padding: 4px 10px;
+        font-size: 12px;
+        width: 88%;
+    }
+    .dropdown {
+        width: 50%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .dropdown li {
+        height: 35px;
+        line-height: 35px;
+    }
+    .footer-links ul li a {
+        color: #999;
+        font-size: 14px;
+    }
+    .footer-links #list_1 {
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .footer-links li {
+        font-size: 1px;
+    }
+    .footer-links-2 ul li a {
+        font-size: 14px;
+    }
+    .copyright_section {
+        font-size: 12px;
+    }
+}
