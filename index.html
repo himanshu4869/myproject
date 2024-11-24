@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <link rel="stylesheet" href="assets/demo.css">
+        <link rel="stylesheet" href="assets/header-fixed.css">
+        <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+        <link rel="icon" href="img/akms_logo.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/aos.css" />
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/media.css"/>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+    <!--<div id="preloader"></div>
+        <style>
+            #preloader{
+                background: #fff url(img/akms_logo.png)no-repeat center;
+                background-size: 20%;
+                width: 100%;
+                height: 100vh;
+                position: fixed;
+                z-index: 100;
+                
+            }
+        </style>
+        <script>
+            var loader = document.getElementById("preloader");
+            
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+            })
+            
+        </script>-->
+        <a href="https://api.whatsapp.com/send?phone=9958479128" class="float" target="_blank" data-aos="zoom-in-down"><i class="fa fa-whatsapp my-float"></i></a>
+        <header class="header-fixed">
+        <div class="header-limiter">
+		    <h1><a href="index.html">AKMS<span> Healthcare</span></a></h1>
+		    <nav>
+			    <a href="index.html" class="selected">Home</a>
+			    <a href="#">Top Categories&nbsp;<i class="fa fa-angle-down"></i>
+			      <div class="dropdown">
+			        <ul type="none">
+			          <li onclick="page_A()">Electrotherapy</li>
+			          <li onclick="page_B()">Muscle Therapy</li>
+			          <li onclick="page_C()">Slimming & Fitness</li>
+			          <li onclick="page_D()">Rehab Equipments</li>
+			          <li onclick="page_E()">Accessories</li>
+			        </ul>
+			      </div>
+			    </a>
+			    <a href="about.html">About Us</a>
+			    <a href="contact.html">Contact Us</a>
+		        </nav>
+	    </div>
+        </header>
+        <div class="header-fixed-placeholder"></div>
+        <div class="anime" data-aos="zoom-in-down">
+            <section>
+                <h3>Welcome to <span>AKMS.</span> Healthcare.</h3>
+                <h1>DO COME & VISIT <span class="change_content"></span></h1>
+                <p>"Your Journey to Wellness Starts Here."</p>
+                <a href="about.html">Learn more <i class="fa fa-angles-right"></i></a>
+            </section>
+        </div>
+        <div class="slider">
+	        <div class="slide-track">
+		        <div class="slide">
+			    <img src="img/yt.png" height="100" width="200" alt="" />
+		    </div>
+		        <div class="slide">
+			<img src="img/indiamart.png" height="80" width="200" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/wp.png" height="90" width="200" alt="" />
+		        </div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			    <img src="img/yt.png" height="100" width="200" alt="" />
+		    </div>
+		        <div class="slide">
+			<img src="img/indiamart.png" height="80" width="200" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/wp.png" height="90" width="200" alt="" />
+		        </div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+	</div>
+        </div>
+        <div class="mainpage" data-aos="zoom-in-down"><h3>Top Products</h3></div>
+        <div class="card">
+            <div id="card" data-aos="zoom-in-down">
+                <img src="img/TENS 1.jpg"/>
+                <h3>AKMS Mini TENS PHYSIOTHERAPY MACHINE | ELECTROTHERAPY</h3>
+                <p>The Mini TENS Physiotherapy Machine is a portable device</p>
+                <button id="viewall-btn" onclick="viewallBtn1()">View Now</button>
+            </div>
+            <div id="card" data-aos="zoom-in-down">
+                <img src="img/MINI ULTRA SONIC 1.jpg"/>
+                <h3>AKMS MINI Ultrasonic Physiotherapy Machine Portable Pain Relief</h3>
+                <p>The Mini MINI Ultrasonic Physiotherapy Machine</p>
+                <button id="viewall-btn" onclick="viewallBtn1()">View Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card" data-aos="zoom-in-down">
+                <img src="img/FINGER.jpeg"/>
+                <h3>AKMS Finger Grip Exerciser  Hand Strengthener & Rehabilitation Tool for Finger, Hand, and Forearm Muscle Conditioning</h3>
+                <p>The Mini Finger Grip Exerciser  Physiotherapy Machine is a compact</p>
+                <button id="viewall-btn" onclick="viewallBtn1()">View Now</button>
+            </div>
+            <div id="card" data-aos="zoom-in-down">
+                <img src="img/MINI IFT 1.jpg"/>
+                <h3>AKMS MINI IFT Physiotherapy Machine  Portable Interferential Therapy Device for Pain Relief and Muscle Rehabilitation</h3>
+                <p>The Mini IFT Physiotherapy Machine is a compact and portable device</p>
+                <button id="viewall-btn" onclick="viewallBtn1()">View Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div id="card" data-aos="zoom-in-down">
+                <img src="img/MINI MS 1.jpg"/>
+                <h3>AKMS MINI Muscle Stimulator Physiotherapy Machine Portable  Device for Pain Relief, Muscle Strengthening, and Rehabilitation</h3>
+                <p>The Mini Muscle Stimulator Physiotherapy Machine is a compact</p>
+                <button id="viewall-btn" onclick="viewallBtn1()">View Now</button>
+            </div>
+            <div id="card" data-aos="zoom-in-down">
+                <img src="img/TENS+MS 1 - Copy.jpg"/>
+                <h3>AKMS Mini TENS+MS COMMBO  PHYSIOTHERAPY MACHINE Portable Devices For Pain Relief </h3>
+                <p>The Mini TENS Physiotherapy Machine is a compact and portable device</p>
+                <button id="viewall-btn" onclick="viewallBtn1()">View Now</button>
+            </div>
+        </div>
+        <div class="container" data-aos="zoom-in-down">
+            <img src="img/shape.png" class="square" alt="" />
+            <div class="form" data-aos="zoom-in-down">
+                <div class="contact-info">
+                    <h3 class="title">AKMS Healthcare</h3>
+                    <p class="text">We offer our services as manufacturers, traders, exporters & importers for a wide assortment of medical equipment.</p>
+                    <div class="info">
+                        <div class="information">
+                            <img src="img/location.png" class="icon" alt="" />
+                            <p>Office no 22, CSC DDA Market, Nirman Vihar, Delhi 110092</p>
+                        </div>
+                        <div class="information">
+                            <img src="img/email.png" class="icon" alt="" />
+                            <p>akmshealthcareworld@gmail.com</p>
+                        </div>
+                        <div class="information">
+                            <img src="img/phone.png" class="icon" alt="" />
+                            <p>+91 9958479128</p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <p>Connect with us :</p>
+                        <div class="social-icons">
+                            <a href="https://fb.openinapp.co/988a4"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://yt.openinapp.co/1e7ka"><i class="fab fa-youtube"></i></a>
+                            <a href="https://insta.openinapp.co/xk2an"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.openinapp.co/fx0ep"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://openinapp.link/qz4si"><i class="fa-solid fa-location-dot"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
+                    <form autocomplete="off">
+                        <h3 class="title">Contact us</h3>
+                        <div class="input-container">
+                            <input type="text" name="name" id="input" class="name" required/>
+                            <label for="">Name</label>
+                            <span>Username</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="phone" id="input" class="phone"required/>
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="message" id="input" class="message" required></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <input type="submit" value="Send" class="btn" onclick="sendwhatsapp()"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="contactForm1" class="contactForm1" data-aos="zoom-in-down">
+            <a id="closeBtn" onclick="closeForm()" href="javascript:void();"><i class="fa fa-times"></i></a>
+            <h3><i>*Enquiry Now</i></h3>
+            <form method="POST" id="form">
+                <input type="text" id="firstName" name="entry.149572740" placeholder="Enter Your Name" required>
+                <input type="tel" id="lastName" name="entry.1313901978" placeholder="Enter Your Phone" required>
+                <input type="email" id="email" name="entry.1628783772" placeholder="Enter Your Email" required>
+                <button type="submit" id="btn" name="submit">Send</button>
+            </form>
+        </div>
+        <div class="copyright_banner">
+            <img src="img/akms_banner.webp" width="100%" alt="">
+        </div>
+        <div class="footer-links">
+            <div>
+                <ul type="none">
+                    <li id="list_1">Our Categories :</li>
+                    <li><a href="page1.html"><i class="fa fa-angles-right"></i> Electrotherapy</a></li>
+                    <li><a href="page2.html"><i class="fa fa-angles-right"></i> Muscle Therapy</a></li>
+                    <li><a href="page3.html"><i class="fa fa-angles-right"></i> Slimming & Fitness</a></li>
+                    <li><a href="page4.html"><i class="fa fa-angles-right"></i> Rehab Equipments</a></li>
+                    <li><a href="page5.html"><i class="fa fa-angles-right"></i> Accessories</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul type="none">
+                    <li id="list_1">Social Links :</li>
+                    <li><a href="https://fb.openinapp.co/988a4">Facebook</a></li>
+                    <li><a href="https://yt.openinapp.co/1e7ka">Youtube</a></li>
+                    <li><a href="https://insta.openinapp.co/xk2an">Instagram</a></li>
+                    <li><a href="https://openinapp.link/zfpgx">IndiaMart</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="footer-links-2">
+                <ul type="none">
+                    <li id="list_1">AKMS Healthcare Pvt. Ltd.</li>
+                    <li><i class="fa-solid fa-location-dot"></i><a href="https://openinapp.link/qz4si">&nbsp;&nbsp;Office no 22, CSC DDA Market, Nirman Vihar, Delhi 110092</a></li>
+                    <li><i class="fa-solid fa-phone"></i><a href="">&nbsp;&nbsp;+91 11 4568 1449</a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:aKMSHEALTHCAREWORLD@GMAIL.COM?">&nbsp;&nbsp;akmshealthcareworld@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright_section">
+            <p>© AKMS Healthcare. | All rights reserved</p>
+        </div>
+    </body>
+</html>
+<script>
+    
+</script>
+<script>
+  AOS.init(30000);
+</script>
